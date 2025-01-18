@@ -1,0 +1,24 @@
+{
+  "name": "MetaAI",
+  "version": "1.0.0",
+  "description": "Meta AI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "MetaAI",
+    "productName": "Meta AI",
+    "mac": {
+      "icon": "assets/meta-ai.png"
+    }
+  }
+}
